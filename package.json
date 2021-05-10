@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Contruccion-de-Software/Server.git"
+  },
+  "author": "Paolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Contruccion-de-Software/Server/issues"
+  },
+  "homepage": "https://github.com/Team-Contruccion-de-Software/Server#readme"
+}
