@@ -1,21 +1,22 @@
 {
   "name": "server",
-  "version": "1.0.0",
-  "description": "Servidor",
+  "version": "2.0.0",
+  "description": "Servidor de pruebas node.js hasta subirlo a la nube",
   "main": "server.js",
   "dependencies": {
     "websocket": "^1.0.34"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
-    "test": "node server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Team-Contruccion-de-Software/Server.git"
   },
-  "author": "Paolo",
+  "author": "Paolo, Lajo, Bayron",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Team-Contruccion-de-Software/Server/issues"
