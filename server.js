@@ -87,6 +87,11 @@ webSocket.on('request', (req) => {
                 })
 
                 break
+
+            case "end_call":
+                //Logica cuando el administrador acabe la llamada y eliminarla
+
+                break
         }
     })
 
