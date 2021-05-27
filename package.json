@@ -1,25 +1,15 @@
 {
-  "name": "server",
-  "version": "2.0.0",
-  "description": "Servidor de pruebas node.js hasta subirlo a la nube",
-  "main": "server.js",
-  "dependencies": {
-    "websocket": "^1.0.34"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
+  "name": "jitsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node node_modules/http-server/bin/http-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Team-Contruccion-de-Software/Server.git"
-  },
-  "author": "Paolo, Lajo, Bayron",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Team-Contruccion-de-Software/Server/issues"
-  },
-  "homepage": "https://github.com/Team-Contruccion-de-Software/Server#readme"
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "serve-favicon": "^2.5.0"
+  }
 }
