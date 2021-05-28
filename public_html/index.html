@@ -20,10 +20,13 @@
 
             var domain = "meet.jit.si"
             var options = {
-                roomName: "b9888b3af492891b0e4fda9584cf2f89049af7c4", "ggym",
-                width: 1000,
+                roomName: "b9888b3af492891b0e4fda9584cf2f89049af7c4",
+                width: 700,
                 height: 700,
-                parentNode: document.querySelector('#meet')
+                parentNode: document.querySelector('#meet'),
+                interfaceConfigOverwrite: {
+                    filmStripOnly: true
+                }
             }
             var api = new JitsiMeetExternalAPI(domain, options);            
         });
@@ -31,6 +34,6 @@
 
 </head>
 <body class="m-0 row justify-content-center">
-    <div class="col-auto text-center" id="meet"></div>    
+    <div style="text-align: center;" class="col-auto text-center" id="meet"></div>    
 </body>
 </html>
